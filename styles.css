@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Josefin+Sans&family=Kalam&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('bg2.png');
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+
+}
+
+nav {
+    font-family: 'Kalam','sans-serif';
+
+    padding: 15px;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+
+}
+
+.brand img {
+    width: 50px; /* Adjust the size as needed */
+    margin-right: 10px;
+}
+
+.signin-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
